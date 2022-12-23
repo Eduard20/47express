@@ -213,7 +213,7 @@
 
 		function foxRequest(trackingValue){
 			var xhr = new XMLHttpRequest();
-	                xhr.open('GET', 'https://express47.herokuapp.com/api?code=' + trackingValue);
+	                xhr.open('GET', 'https://express47-backend.onrender.com/api?code=' + trackingValue);
 	                xhr.send();
 	                xhr.onreadystatechange = function() { // (3)
 	                    if (xhr.readyState != 4) return;
